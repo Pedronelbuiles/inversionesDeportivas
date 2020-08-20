@@ -11,3 +11,189 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.Indicadores{
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+}
+
+.List{
+  width: 90vw;
+}
+
+.centrado{
+  text-align: center;
+}
+
+.casa{
+  background-color: goldenrod;
+  color: white;
+}
+
+.espArriba{
+  padding-top: 10px;
+  background-color: black;
+  color:white;
+}
+
+.espAbajo{
+  padding: 10px;
+}
+
+.borde{
+  border-bottom: solid 1px black;
+  border-left: solid 1px black;
+  border-right: solid 1px black;
+}
+
+.bordeV{
+  border-bottom: solid 1px green;
+  border-left: solid 1px green;
+  border-right: solid 1px green;
+}
+
+.bordeR{
+  border-bottom: solid 1px red;
+  border-left: solid 1px red;
+  border-right: solid 1px red;
+}
+
+.espacio{
+  padding: 3px;
+}
+.verde{
+  background-color: green;
+  color: white;
+}
+.rojo{
+  background-color: red;
+  color: white;
+}
+
+.positionRigth{
+  position: absolute;
+  right: 0;
+  margin-right: 25px;
+}
+
+.espFormIndicator{
+  height: 85vh;
+  overflow-y: scroll;
+}
+
+.margenYtamano{
+  width: 100%;
+  height: 80vh;
+  overflow: hidden;
+  padding-top: 10%;
+}
+
+.btn-indi-op{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 7vh;
+  font-weight: 600;
+  background-color: black;
+  color: white;
+}
+
+.btn-indi-op:hover{
+  background-color: grey;  
+  transition: 800ms;
+  cursor: pointer;
+}
+
+.fondoAcademia{
+  width: 100%;
+  display: flex;
+}
+
+.contenido{
+  position: fixed;
+  width: 30vw;
+  z-index: 10;
+}
+
+.btnAbrir{
+  margin-top: 10px !important;
+}
+
+.btnCerrar{
+  margin-top: 10px !important;
+  background-color: red !important;
+  color: white !important;
+}
+
+.cuerpo{  
+  height: 100%;
+  padding-top: 10vh;
+  transition: 400ms;
+  z-index: 1;
+}
+
+.eleTablCont{
+  background-color: black;
+  color: white;
+  display: none;
+}
+
+.eleTablCont .txtCentro:hover{
+  background-color: grey;  
+  transition: 600ms;
+  cursor: pointer;
+}
+
+.txtCentro{
+  text-align: center;
+  padding: 5px;
+}
+
+.noLinkStyles{
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+.margenAbajo{
+  margin-bottom: 10px !important;
+}
+
+.btnNext{
+  position: absolute !important;
+  right: 0;
+  margin-top: 5vw !important;
+  margin-right: 10vw !important;
+  margin-bottom: 10vh !important;
+}
+
+.imgsAcademia{
+  width: 80vw;
+  height: 80vh;
+}
+
+.tituloCentrado{
+  text-align: center;
+  border: solid 1px black;
+  background-color: black;
+  color: white;
+}
+
+.imgAcademia{
+  width: 40vw;
+  height: 100vh;
+  margin-bottom: 10vh;
+}
+
+@media (min-width: 960px){
+  .margenYtamano{
+    margin-left: 8%;
+  }
+}
+
+@media (max-width: 960px){
+  .espFormIndicator{
+    height: 50vh;
+  }
+}
